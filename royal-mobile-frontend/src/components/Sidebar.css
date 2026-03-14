@@ -1,0 +1,62 @@
+/* Sidebar Container */
+
+.sidebar{
+width:240px;
+background:#111827;
+color:white;
+height:100vh;
+padding: 0%;
+display:flex;
+flex-direction:column;
+position:fixed;
+left:0;
+top:0;
+}
+
+/* Logo */
+
+.logo{
+font-size:20px;
+margin-bottom:30px;
+font-weight:600;
+}
+
+/* Menu */
+
+.menu{
+display:flex;
+flex-direction:column;
+}
+
+/* Links */
+
+.menu a{
+display:flex;
+align-items:center;
+gap:10px;
+color:white;
+margin:8px 0;
+padding:10px;
+border-radius:6px;
+text-decoration:none;
+transition:0.2s;
+font-size:15px;
+}
+
+/* Hover effect */
+
+.menu a:hover{
+background:#1f2937;
+}
+
+/* Active link */
+
+.menu a.active{
+background:#2563eb;
+}
+
+/* Icons */
+
+.icon{
+font-size:16px;
+}
