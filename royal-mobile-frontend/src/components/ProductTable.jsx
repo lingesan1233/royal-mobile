@@ -33,7 +33,7 @@ style={{background:p.stock<5?"#ffdddd":""}}>
 
 <td>
 <img
-src={`http://localhost:5000/uploads/${p.image}`}
+src={`https://royal-mobile.onrender.com/uploads/${p.image}`}
 width="50"
 />
 </td>

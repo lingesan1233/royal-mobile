@@ -1,15 +1,15 @@
 export default function Reports(){
 
   const downloadDaily = ()=>{
-    window.open("https://royal-mobile.onrender.com");
+    window.open("https://royal-mobile.onrender.com/api/reports/sales?type=daily");
   };
 
   const downloadWeekly = ()=>{
-    window.open("https://royal-mobile.onrender.com");
+    window.open("https://royal-mobile.onrender.com/api/reports/sales?type=weekly");
   };
 
   const downloadMonthly = ()=>{
-    window.open("https://royal-mobile.onrender.com");
+    window.open("https://royal-mobile.onrender.com/api/reports/sales?type=monthly");
   };
 
   return(
